@@ -1,4 +1,4 @@
-# ✒️ Multi Auth App
+# Multi Auth App
 
 **Multi Auth App** is a modern authentication demo built for **Soovrat Technologies interview**, featuring both traditional email/password login and Google login. Users can register, log in, update their profile, and delete their account. The backend uses JWT for secure authentication.
 
