@@ -86,18 +86,21 @@ App will be available at: [http://localhost:3000](http://localhost:3000)
 
 ```bash
 multi-auth-app/
-├── controllers/       # Authentication logic
-├── middleware/        # JWT verification, etc.
-├── routes/            # API routes
-├── public/            # Frontend HTML/CSS/JS files + images
-│   ├── login.html
-│   ├── register.html
-│   ├── profile.html
-│   ├── google.login.png
-│   └── google-profile.png
-├── db.js              # MySQL connection
-├── server.js          # Express server
-└── .env               # Environment variables
+├── backend/              # All backend & frontend files are here
+│   ├── controllers/      # Authentication logic
+│   ├── middleware/       # JWT verification, etc.
+│   ├── routes/           # API routes
+│   ├── public/           # Frontend HTML/CSS/JS files
+│   │   ├── login.html
+│   │   ├── register.html
+│   │   └── profile.html
+│   ├── db.js             # MySQL connection
+│   └── server.js         # Express server
+├── .gitignore
+├── LICENSE
+├── README.md
+├── google-login.png
+└── google-profile.png
 ```
 
 ---
