@@ -1,6 +1,6 @@
 # Multi Auth App
 
-**Multi Auth App** is a web application, featuring both traditional email/password login and Google login. Users can register, log in, update their profile, and delete their account. The backend uses JWT for secure authentication.
+**Multi Auth App** is a simple web application, featuring both traditional email/password login and Google login. Users can register, log in, update their profile, and delete their account. The backend uses JWT for secure authentication.
 
 ## 🚀 Features
 
