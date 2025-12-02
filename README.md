@@ -71,7 +71,7 @@ App will be available at: [http://localhost:3000](http://localhost:3000)
 **Google Login**
 
 <div align="center">
-  <img src="google.login.png" alt="Google Login" width="400"/>
+  <img src="google-login.png" alt="Google Login" width="400"/>
 </div>
 
 **Profile Page (after Google login)**
