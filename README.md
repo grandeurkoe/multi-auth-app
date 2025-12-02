@@ -66,6 +66,22 @@ App will be available at: [http://localhost:3000](http://localhost:3000)
 
 ---
 
+## 📸 Screenshots
+
+**Google Login**
+
+<div align="center">
+  <img src="google.login.png" alt="Google Login" width="400"/>
+</div>
+
+**Profile Page (after Google login)**
+
+<div align="center">
+  <img src="google-profile.png" alt="Profile Page" width="400"/>
+</div>
+
+---
+
 ## 🧩 Folder Structure Overview
 
 ```bash
@@ -73,10 +89,12 @@ multi-auth-app/
 ├── controllers/       # Authentication logic
 ├── middleware/        # JWT verification, etc.
 ├── routes/            # API routes
-├── public/            # Frontend HTML/CSS/JS files
+├── public/            # Frontend HTML/CSS/JS files + images
 │   ├── login.html
 │   ├── register.html
-│   └── profile.html
+│   ├── profile.html
+│   ├── google.login.png
+│   └── google-profile.png
 ├── db.js              # MySQL connection
 ├── server.js          # Express server
 └── .env               # Environment variables
